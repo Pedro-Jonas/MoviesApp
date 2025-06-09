@@ -28,11 +28,11 @@ function Home() {
 
         <h2>{nome}</h2>
   
-        {/*{categories.map((category, index) => 
+        {categories.map((category, index) => 
           <Category category={category}>
           {filterCategory(index).map(video =>  <Card id={video.id} key={video.id}/>)}
           </Category>)
-        }*/}
+        }
       </Container>
       <Footer/>
     </>
